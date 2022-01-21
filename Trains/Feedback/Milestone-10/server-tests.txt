@@ -1,0 +1,5147 @@
+(testing /vagrant/canonical/10/xclients /home/vagrant/final-repos/b-repos/siuslaw/10/xserver)
+(testing /vagrant/canonical/10/ServerTests/1-in.json /vagrant/canonical/10/ServerTests/1-out.json)
+Traceback (most recent call last):
+  File "/home/vagrant/final-repos/b-repos/siuslaw/10/xserver", line 10, in <module>
+    from Trains.Admin.referee import NotEnoughDestinations
+ImportError: cannot import name 'NotEnoughDestinations'
+---------------------------------
+(*** score 0)
+(*** on)
+'(#hasheq((cities
+           .
+           (("Boston" (100 100)) ("Orlando" (30 300)) ("Seattle" (200 20))))
+          (connections
+           .
+           #hasheq((Boston
+                    .
+                    #hasheq((Orlando . #hasheq((green . 5) (white . 3)))
+                            (Seattle . #hasheq((green . 4) (red . 3)))))
+                   (Orlando . #hasheq((Seattle . #hasheq((blue . 5)))))
+                   (Seattle . #hasheq())))
+          (height . 800)
+          (width . 800))
+  (("holdten" "Hold-10")
+   ("holdtena" "Hold-10")
+   ("holdtenaa" "Hold-10")
+   ("holdtenaaa" "Hold-10")
+   ("holdtenaaaa" "Hold-10")
+   ("holdtenaaaaa" "Hold-10")
+   ("holdtenaaaaaa" "Hold-10")
+   ("holdtenaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaaaaa" "Hold-10")
+   ("buynoww" "Buy-Now")
+   ("cheater" "Cheat")
+   ("cheatera" "Cheat")
+   ("cheateraa" "Cheat")
+   ("cheateraaa" "Cheat")
+   ("cheateraaaa" "Cheat")
+   ("cheateraaaaa" "Cheat")
+   ("cheateraaaaaa" "Cheat")
+   ("cheateraaaaaaa" "Cheat")
+   ("cheateraaaaaaaa" "Cheat")
+   ("cheateraaaaaaaaa" "Cheat"))
+  ("white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"))
+(*** expected)
+'("error: not enough destinations")
+(*** but received)
+'(((plain fast with-newline plain-unicode) (#<eof>)))
+
+
+(testing /vagrant/canonical/10/ServerTests/10-in.json /vagrant/canonical/10/ServerTests/10-out.json)
+Traceback (most recent call last):
+  File "/home/vagrant/final-repos/b-repos/siuslaw/10/xserver", line 10, in <module>
+    from Trains.Admin.referee import NotEnoughDestinations
+ImportError: cannot import name 'NotEnoughDestinations'
+---------------------------------
+(*** score 0)
+(*** on)
+'(#hasheq((cities
+           .
+           (("19" (145 796))
+            ("18" (142 667))
+            ("17" (88 44))
+            ("16" (1 534))
+            ("15" (78 117))
+            ("14" (135 551))
+            ("13" (57 368))
+            ("12" (46 601))
+            ("11" (28 68))
+            ("10" (81 278))
+            ("9" (121 619))
+            ("8" (44 266))
+            ("7" (66 179))
+            ("6" (76 222))
+            ("5" (100 162))
+            ("4" (171 69))
+            ("3" (195 708))
+            ("2" (23 712))
+            ("1" (30 655))
+            ("0" (183 432))))
+          (connections
+           .
+           #hasheq((|0|
+                    .
+                    #hasheq((|2| . #hasheq((red . 3)))
+                            (|5| . #hasheq((blue . 3)))))
+                   (|1| . #hasheq((|4| . #hasheq((green . 3)))))
+                   (|10|
+                    .
+                    #hasheq((|12| . #hasheq((green . 3)))
+                            (|15| . #hasheq((blue . 3)))
+                            (|16| . #hasheq((green . 3)))
+                            (|17| . #hasheq((red . 3)))
+                            (|19| . #hasheq((green . 3)))
+                            (|5| . #hasheq((white . 3)))
+                            (|7| . #hasheq((green . 3)))))
+                   (|11|
+                    .
+                    #hasheq((|13| . #hasheq((blue . 3)))
+                            (|2| . #hasheq((white . 3)))
+                            (|3| . #hasheq((blue . 3)))
+                            (|5| . #hasheq((white . 3)))))
+                   (|12|
+                    .
+                    #hasheq((|3| . #hasheq((white . 3)))
+                            (|5| . #hasheq((red . 3)))))
+                   (|13|
+                    .
+                    #hasheq((|14| . #hasheq((green . 3)))
+                            (|17| . #hasheq((white . 3)))
+                            (|19| . #hasheq((red . 3)))))
+                   (|14|
+                    .
+                    #hasheq((|15| . #hasheq((white . 3)))
+                            (|18| . #hasheq((white . 3)))
+                            (|8| . #hasheq((white . 3)))))
+                   (|15|
+                    .
+                    #hasheq((|5| . #hasheq((green . 3)))
+                            (|9| . #hasheq((white . 3)))))
+                   (|16|
+                    .
+                    #hasheq((|19| . #hasheq((green . 3)))
+                            (|3| . #hasheq((red . 3)))))
+                   (|17| . #hasheq((|4| . #hasheq((blue . 3)))))
+                   (|18|
+                    .
+                    #hasheq((|3| . #hasheq((red . 3)))
+                            (|4| . #hasheq((blue . 3) (white . 3)))))
+                   (|19|
+                    .
+                    #hasheq((|2| . #hasheq((green . 3)))
+                            (|4| . #hasheq((green . 3)))))
+                   (|2| . #hasheq((|3| . #hasheq((white . 3)))))
+                   (|3|
+                    .
+                    #hasheq((|4| . #hasheq((green . 3) (red . 3)))
+                            (|6| . #hasheq((blue . 3)))))
+                   (|4| . #hasheq())
+                   (|5| . #hasheq((|8| . #hasheq((red . 3)))))
+                   (|6| . #hasheq((|8| . #hasheq((white . 3)))))
+                   (|7| . #hasheq())
+                   (|8| . #hasheq())
+                   (|9| . #hasheq())))
+          (height . 800)
+          (width . 200))
+  (("holdten" "Hold-10")
+   ("holdtena" "Hold-10")
+   ("holdtenaa" "Hold-10")
+   ("holdtenaaa" "Hold-10")
+   ("holdtenaaaa" "Hold-10")
+   ("holdtenaaaaa" "Hold-10")
+   ("holdtenaaaaaa" "Hold-10")
+   ("holdtenaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaaaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaaaaaaaaaaaaaaa" "Hold-10")
+   ("buynoww" "Buy-Now")
+   ("abaddy" "player-bad-start"))
+  ("white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"))
+(*** expected)
+'((("holdten"
+    "holdtena"
+    "holdtenaa"
+    "holdtenaaa"
+    "holdtenaaaaaaaaaaaaaaaa"
+    "holdtenaaaaaaaaaaaaaaaaa")
+   ("abaddy")))
+(*** but received)
+'(((plain fast with-newline plain-unicode) (#<eof>)))
+
+
+(testing /vagrant/canonical/10/ServerTests/11-in.json /vagrant/canonical/10/ServerTests/11-out.json)
+Traceback (most recent call last):
+  File "/home/vagrant/final-repos/b-repos/siuslaw/10/xserver", line 10, in <module>
+    from Trains.Admin.referee import NotEnoughDestinations
+ImportError: cannot import name 'NotEnoughDestinations'
+---------------------------------
+(*** score 0)
+(*** on)
+'(#hasheq((cities
+           .
+           (("19" (145 796))
+            ("18" (142 667))
+            ("17" (88 44))
+            ("16" (1 534))
+            ("15" (78 117))
+            ("14" (135 551))
+            ("13" (57 368))
+            ("12" (46 601))
+            ("11" (28 68))
+            ("10" (81 278))
+            ("9" (121 619))
+            ("8" (44 266))
+            ("7" (66 179))
+            ("6" (76 222))
+            ("5" (100 162))
+            ("4" (171 69))
+            ("3" (195 708))
+            ("2" (23 712))
+            ("1" (30 655))
+            ("0" (183 432))))
+          (connections
+           .
+           #hasheq((|0|
+                    .
+                    #hasheq((|2| . #hasheq((red . 3)))
+                            (|5| . #hasheq((blue . 3)))))
+                   (|1| . #hasheq((|4| . #hasheq((green . 3)))))
+                   (|10|
+                    .
+                    #hasheq((|12| . #hasheq((green . 3)))
+                            (|15| . #hasheq((blue . 3)))
+                            (|16| . #hasheq((green . 3)))
+                            (|17| . #hasheq((red . 3)))
+                            (|19| . #hasheq((green . 3)))
+                            (|5| . #hasheq((white . 3)))
+                            (|7| . #hasheq((green . 3)))))
+                   (|11|
+                    .
+                    #hasheq((|13| . #hasheq((blue . 3)))
+                            (|2| . #hasheq((white . 3)))
+                            (|3| . #hasheq((blue . 3)))
+                            (|5| . #hasheq((white . 3)))))
+                   (|12|
+                    .
+                    #hasheq((|3| . #hasheq((white . 3)))
+                            (|5| . #hasheq((red . 3)))))
+                   (|13|
+                    .
+                    #hasheq((|14| . #hasheq((green . 3)))
+                            (|17| . #hasheq((white . 3)))
+                            (|19| . #hasheq((red . 3)))))
+                   (|14|
+                    .
+                    #hasheq((|15| . #hasheq((white . 3)))
+                            (|18| . #hasheq((white . 3)))
+                            (|8| . #hasheq((white . 3)))))
+                   (|15|
+                    .
+                    #hasheq((|5| . #hasheq((green . 3)))
+                            (|9| . #hasheq((white . 3)))))
+                   (|16|
+                    .
+                    #hasheq((|19| . #hasheq((green . 3)))
+                            (|3| . #hasheq((red . 3)))))
+                   (|17| . #hasheq((|4| . #hasheq((blue . 3)))))
+                   (|18|
+                    .
+                    #hasheq((|3| . #hasheq((red . 3)))
+                            (|4| . #hasheq((blue . 3) (white . 3)))))
+                   (|19|
+                    .
+                    #hasheq((|2| . #hasheq((green . 3)))
+                            (|4| . #hasheq((green . 3)))))
+                   (|2| . #hasheq((|3| . #hasheq((white . 3)))))
+                   (|3|
+                    .
+                    #hasheq((|4| . #hasheq((green . 3) (red . 3)))
+                            (|6| . #hasheq((blue . 3)))))
+                   (|4| . #hasheq())
+                   (|5| . #hasheq((|8| . #hasheq((red . 3)))))
+                   (|6| . #hasheq((|8| . #hasheq((white . 3)))))
+                   (|7| . #hasheq())
+                   (|8| . #hasheq())
+                   (|9| . #hasheq())))
+          (height . 800)
+          (width . 200))
+  (("holdten" "Hold-10")
+   ("holdtena" "Hold-10")
+   ("holdtenaa" "Hold-10")
+   ("holdtenaaa" "Hold-10")
+   ("holdtenaaaa" "Hold-10")
+   ("holdtenaaaaa" "Hold-10")
+   ("holdtenaaaaaa" "Hold-10")
+   ("holdtenaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaaaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaaaaaaaaaaaaaaa" "Hold-10")
+   ("buynoww" "Buy-Now")
+   ("abaddy" "player-bad-end"))
+  ("white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"))
+(*** expected)
+'((("buynoww") ()))
+(*** but received)
+'(((plain fast with-newline plain-unicode) (#<eof>)))
+
+
+(testing /vagrant/canonical/10/ServerTests/12-in.json /vagrant/canonical/10/ServerTests/12-out.json)
+Traceback (most recent call last):
+  File "/home/vagrant/final-repos/b-repos/siuslaw/10/xserver", line 10, in <module>
+    from Trains.Admin.referee import NotEnoughDestinations
+ImportError: cannot import name 'NotEnoughDestinations'
+---------------------------------
+(*** score 0)
+(*** on)
+'(#hasheq((cities
+           .
+           (("19" (145 796))
+            ("18" (142 667))
+            ("17" (88 44))
+            ("16" (1 534))
+            ("15" (78 117))
+            ("14" (135 551))
+            ("13" (57 368))
+            ("12" (46 601))
+            ("11" (28 68))
+            ("10" (81 278))
+            ("9" (121 619))
+            ("8" (44 266))
+            ("7" (66 179))
+            ("6" (76 222))
+            ("5" (100 162))
+            ("4" (171 69))
+            ("3" (195 708))
+            ("2" (23 712))
+            ("1" (30 655))
+            ("0" (183 432))))
+          (connections
+           .
+           #hasheq((|0|
+                    .
+                    #hasheq((|2| . #hasheq((red . 3)))
+                            (|5| . #hasheq((blue . 3)))))
+                   (|1| . #hasheq((|4| . #hasheq((green . 3)))))
+                   (|10|
+                    .
+                    #hasheq((|12| . #hasheq((green . 3)))
+                            (|15| . #hasheq((blue . 3)))
+                            (|16| . #hasheq((green . 3)))
+                            (|17| . #hasheq((red . 3)))
+                            (|19| . #hasheq((green . 3)))
+                            (|5| . #hasheq((white . 3)))
+                            (|7| . #hasheq((green . 3)))))
+                   (|11|
+                    .
+                    #hasheq((|13| . #hasheq((blue . 3)))
+                            (|2| . #hasheq((white . 3)))
+                            (|3| . #hasheq((blue . 3)))
+                            (|5| . #hasheq((white . 3)))))
+                   (|12|
+                    .
+                    #hasheq((|3| . #hasheq((white . 3)))
+                            (|5| . #hasheq((red . 3)))))
+                   (|13|
+                    .
+                    #hasheq((|14| . #hasheq((green . 3)))
+                            (|17| . #hasheq((white . 3)))
+                            (|19| . #hasheq((red . 3)))))
+                   (|14|
+                    .
+                    #hasheq((|15| . #hasheq((white . 3)))
+                            (|18| . #hasheq((white . 3)))
+                            (|8| . #hasheq((white . 3)))))
+                   (|15|
+                    .
+                    #hasheq((|5| . #hasheq((green . 3)))
+                            (|9| . #hasheq((white . 3)))))
+                   (|16|
+                    .
+                    #hasheq((|19| . #hasheq((green . 3)))
+                            (|3| . #hasheq((red . 3)))))
+                   (|17| . #hasheq((|4| . #hasheq((blue . 3)))))
+                   (|18|
+                    .
+                    #hasheq((|3| . #hasheq((red . 3)))
+                            (|4| . #hasheq((blue . 3) (white . 3)))))
+                   (|19|
+                    .
+                    #hasheq((|2| . #hasheq((green . 3)))
+                            (|4| . #hasheq((green . 3)))))
+                   (|2| . #hasheq((|3| . #hasheq((white . 3)))))
+                   (|3|
+                    .
+                    #hasheq((|4| . #hasheq((green . 3) (red . 3)))
+                            (|6| . #hasheq((blue . 3)))))
+                   (|4| . #hasheq())
+                   (|5| . #hasheq((|8| . #hasheq((red . 3)))))
+                   (|6| . #hasheq((|8| . #hasheq((white . 3)))))
+                   (|7| . #hasheq())
+                   (|8| . #hasheq())
+                   (|9| . #hasheq())))
+          (height . 800)
+          (width . 200))
+  (("cheater" "Cheat") ("abaddy" "player-bad-end"))
+  ("white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"))
+(*** expected)
+'((() ("abaddy" "cheater")))
+(*** but received)
+'(((plain fast with-newline plain-unicode) (#<eof>)))
+
+
+(testing /vagrant/canonical/10/ServerTests/13-in.json /vagrant/canonical/10/ServerTests/13-out.json)
+Traceback (most recent call last):
+  File "/home/vagrant/final-repos/b-repos/siuslaw/10/xserver", line 10, in <module>
+    from Trains.Admin.referee import NotEnoughDestinations
+ImportError: cannot import name 'NotEnoughDestinations'
+---------------------------------
+(*** score 0)
+(*** on)
+'(#hasheq((cities
+           .
+           (("19" (145 796))
+            ("18" (142 667))
+            ("17" (88 44))
+            ("16" (1 534))
+            ("15" (78 117))
+            ("14" (135 551))
+            ("13" (57 368))
+            ("12" (46 601))
+            ("11" (28 68))
+            ("10" (81 278))
+            ("9" (121 619))
+            ("8" (44 266))
+            ("7" (66 179))
+            ("6" (76 222))
+            ("5" (100 162))
+            ("4" (171 69))
+            ("3" (195 708))
+            ("2" (23 712))
+            ("1" (30 655))
+            ("0" (183 432))))
+          (connections
+           .
+           #hasheq((|0|
+                    .
+                    #hasheq((|2| . #hasheq((red . 3)))
+                            (|5| . #hasheq((blue . 3)))))
+                   (|1| . #hasheq((|4| . #hasheq((green . 3)))))
+                   (|10|
+                    .
+                    #hasheq((|12| . #hasheq((green . 3)))
+                            (|15| . #hasheq((blue . 3)))
+                            (|16| . #hasheq((green . 3)))
+                            (|17| . #hasheq((red . 3)))
+                            (|19| . #hasheq((green . 3)))
+                            (|5| . #hasheq((white . 3)))
+                            (|7| . #hasheq((green . 3)))))
+                   (|11|
+                    .
+                    #hasheq((|13| . #hasheq((blue . 3)))
+                            (|2| . #hasheq((white . 3)))
+                            (|3| . #hasheq((blue . 3)))
+                            (|5| . #hasheq((white . 3)))))
+                   (|12|
+                    .
+                    #hasheq((|3| . #hasheq((white . 3)))
+                            (|5| . #hasheq((red . 3)))))
+                   (|13|
+                    .
+                    #hasheq((|14| . #hasheq((green . 3)))
+                            (|17| . #hasheq((white . 3)))
+                            (|19| . #hasheq((red . 3)))))
+                   (|14|
+                    .
+                    #hasheq((|15| . #hasheq((white . 3)))
+                            (|18| . #hasheq((white . 3)))
+                            (|8| . #hasheq((white . 3)))))
+                   (|15|
+                    .
+                    #hasheq((|5| . #hasheq((green . 3)))
+                            (|9| . #hasheq((white . 3)))))
+                   (|16|
+                    .
+                    #hasheq((|19| . #hasheq((green . 3)))
+                            (|3| . #hasheq((red . 3)))))
+                   (|17| . #hasheq((|4| . #hasheq((blue . 3)))))
+                   (|18|
+                    .
+                    #hasheq((|3| . #hasheq((red . 3)))
+                            (|4| . #hasheq((blue . 3) (white . 3)))))
+                   (|19|
+                    .
+                    #hasheq((|2| . #hasheq((green . 3)))
+                            (|4| . #hasheq((green . 3)))))
+                   (|2| . #hasheq((|3| . #hasheq((white . 3)))))
+                   (|3|
+                    .
+                    #hasheq((|4| . #hasheq((green . 3) (red . 3)))
+                            (|6| . #hasheq((blue . 3)))))
+                   (|4| . #hasheq())
+                   (|5| . #hasheq((|8| . #hasheq((red . 3)))))
+                   (|6| . #hasheq((|8| . #hasheq((white . 3)))))
+                   (|7| . #hasheq())
+                   (|8| . #hasheq())
+                   (|9| . #hasheq())))
+          (height . 800)
+          (width . 200))
+  (("buynoww" "Buy-Now")
+   ("abaddy" "player-bad-end")
+   ("abaddyb" "player-bad-end")
+   ("abaddybb" "player-bad-end"))
+  ("white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"))
+(*** expected)
+'((() ("abaddy" "abaddyb" "abaddybb")))
+(*** but received)
+'(((plain fast with-newline plain-unicode) (#<eof>)))
+
+
+(testing /vagrant/canonical/10/ServerTests/14-in.json /vagrant/canonical/10/ServerTests/14-out.json)
+Traceback (most recent call last):
+  File "/home/vagrant/final-repos/b-repos/siuslaw/10/xserver", line 10, in <module>
+    from Trains.Admin.referee import NotEnoughDestinations
+ImportError: cannot import name 'NotEnoughDestinations'
+---------------------------------
+(*** score 0)
+(*** on)
+'(#hasheq((cities
+           .
+           (("19" (145 796))
+            ("18" (142 667))
+            ("17" (88 44))
+            ("16" (1 534))
+            ("15" (78 117))
+            ("14" (135 551))
+            ("13" (57 368))
+            ("12" (46 601))
+            ("11" (28 68))
+            ("10" (81 278))
+            ("9" (121 619))
+            ("8" (44 266))
+            ("7" (66 179))
+            ("6" (76 222))
+            ("5" (100 162))
+            ("4" (171 69))
+            ("3" (195 708))
+            ("2" (23 712))
+            ("1" (30 655))
+            ("0" (183 432))))
+          (connections
+           .
+           #hasheq((|0|
+                    .
+                    #hasheq((|2| . #hasheq((red . 3)))
+                            (|5| . #hasheq((blue . 3)))))
+                   (|1| . #hasheq((|4| . #hasheq((green . 3)))))
+                   (|10|
+                    .
+                    #hasheq((|12| . #hasheq((green . 3)))
+                            (|15| . #hasheq((blue . 3)))
+                            (|16| . #hasheq((green . 3)))
+                            (|17| . #hasheq((red . 3)))
+                            (|19| . #hasheq((green . 3)))
+                            (|5| . #hasheq((white . 3)))
+                            (|7| . #hasheq((green . 3)))))
+                   (|11|
+                    .
+                    #hasheq((|13| . #hasheq((blue . 3)))
+                            (|2| . #hasheq((white . 3)))
+                            (|3| . #hasheq((blue . 3)))
+                            (|5| . #hasheq((white . 3)))))
+                   (|12|
+                    .
+                    #hasheq((|3| . #hasheq((white . 3)))
+                            (|5| . #hasheq((red . 3)))))
+                   (|13|
+                    .
+                    #hasheq((|14| . #hasheq((green . 3)))
+                            (|17| . #hasheq((white . 3)))
+                            (|19| . #hasheq((red . 3)))))
+                   (|14|
+                    .
+                    #hasheq((|15| . #hasheq((white . 3)))
+                            (|18| . #hasheq((white . 3)))
+                            (|8| . #hasheq((white . 3)))))
+                   (|15|
+                    .
+                    #hasheq((|5| . #hasheq((green . 3)))
+                            (|9| . #hasheq((white . 3)))))
+                   (|16|
+                    .
+                    #hasheq((|19| . #hasheq((green . 3)))
+                            (|3| . #hasheq((red . 3)))))
+                   (|17| . #hasheq((|4| . #hasheq((blue . 3)))))
+                   (|18|
+                    .
+                    #hasheq((|3| . #hasheq((red . 3)))
+                            (|4| . #hasheq((blue . 3) (white . 3)))))
+                   (|19|
+                    .
+                    #hasheq((|2| . #hasheq((green . 3)))
+                            (|4| . #hasheq((green . 3)))))
+                   (|2| . #hasheq((|3| . #hasheq((white . 3)))))
+                   (|3|
+                    .
+                    #hasheq((|4| . #hasheq((green . 3) (red . 3)))
+                            (|6| . #hasheq((blue . 3)))))
+                   (|4| . #hasheq())
+                   (|5| . #hasheq((|8| . #hasheq((red . 3)))))
+                   (|6| . #hasheq((|8| . #hasheq((white . 3)))))
+                   (|7| . #hasheq())
+                   (|8| . #hasheq())
+                   (|9| . #hasheq())))
+          (height . 800)
+          (width . 200))
+  (("buynoww" "Buy-Now") ("abaddy" "player-bad-win"))
+  ("white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"))
+(*** expected)
+'((() ("abaddy")))
+(*** but received)
+'(((plain fast with-newline plain-unicode) (#<eof>)))
+
+
+(testing /vagrant/canonical/10/ServerTests/2-in.json /vagrant/canonical/10/ServerTests/2-out.json)
+Traceback (most recent call last):
+  File "/home/vagrant/final-repos/b-repos/siuslaw/10/xserver", line 10, in <module>
+    from Trains.Admin.referee import NotEnoughDestinations
+ImportError: cannot import name 'NotEnoughDestinations'
+---------------------------------
+(*** score 0)
+(*** on)
+'(#hasheq((cities
+           .
+           (("19" (98 522))
+            ("18" (140 91))
+            ("17" (80 478))
+            ("16" (196 569))
+            ("15" (25 382))
+            ("14" (5 671))
+            ("13" (154 50))
+            ("12" (186 247))
+            ("11" (58 138))
+            ("10" (176 97))
+            ("9" (99 466))
+            ("8" (179 675))
+            ("7" (195 425))
+            ("6" (25 541))
+            ("5" (164 572))
+            ("4" (67 273))
+            ("3" (142 247))
+            ("2" (113 416))
+            ("1" (128 418))
+            ("0" (101 700))))
+          (connections
+           .
+           #hasheq((|0|
+                    .
+                    #hasheq((|17| . #hasheq((white . 3)))
+                            (|19| . #hasheq((white . 3)))
+                            (|9| . #hasheq((blue . 3)))))
+                   (|1|
+                    .
+                    #hasheq((|4| . #hasheq((white . 3)))
+                            (|6| . #hasheq((blue . 3)))
+                            (|8| . #hasheq((green . 3) (red . 3)))))
+                   (|10|
+                    .
+                    #hasheq((|14| . #hasheq((blue . 3)))
+                            (|15| . #hasheq((blue . 3)))
+                            (|4| . #hasheq((green . 3)))
+                            (|5| . #hasheq((red . 3)))))
+                   (|11|
+                    .
+                    #hasheq((|12| . #hasheq((red . 3)))
+                            (|13| . #hasheq((green . 3)))
+                            (|16| . #hasheq((blue . 3)))
+                            (|6| . #hasheq((white . 3)))))
+                   (|12| . #hasheq((|13| . #hasheq((blue . 3)))))
+                   (|13| . #hasheq((|17| . #hasheq((white . 3)))))
+                   (|14|
+                    .
+                    #hasheq((|16| . #hasheq((white . 3)))
+                            (|5| . #hasheq((white . 3)))
+                            (|7| . #hasheq((blue . 3) (red . 3)))
+                            (|8| . #hasheq((blue . 3)))))
+                   (|15| . #hasheq((|9| . #hasheq((blue . 3) (green . 3)))))
+                   (|16|
+                    .
+                    #hasheq((|18| . #hasheq((red . 3) (white . 3)))
+                            (|9| . #hasheq((white . 3)))))
+                   (|17|
+                    .
+                    #hasheq((|18| . #hasheq((green . 3)))
+                            (|9| . #hasheq((red . 3)))))
+                   (|18| . #hasheq((|2| . #hasheq((blue . 3)))))
+                   (|19|
+                    .
+                    #hasheq((|3| . #hasheq((red . 3)))
+                            (|6| . #hasheq((red . 3)))
+                            (|7| . #hasheq((green . 3)))
+                            (|9| . #hasheq((red . 3)))))
+                   (|2|
+                    .
+                    #hasheq((|3| . #hasheq((green . 3)))
+                            (|4| . #hasheq((white . 3)))
+                            (|8| . #hasheq((blue . 3) (white . 3)))
+                            (|9| . #hasheq((white . 3)))))
+                   (|3| . #hasheq())
+                   (|4| . #hasheq())
+                   (|5| . #hasheq((|6| . #hasheq((red . 3)))))
+                   (|6| . #hasheq())
+                   (|7| . #hasheq())
+                   (|8| . #hasheq())
+                   (|9| . #hasheq())))
+          (height . 800)
+          (width . 200))
+  (("holdten" "Hold-10")
+   ("holdtena" "Hold-10")
+   ("holdtenaa" "Hold-10")
+   ("holdtenaaa" "Hold-10")
+   ("holdtenaaaa" "Hold-10")
+   ("holdtenaaaaa" "Hold-10")
+   ("holdtenaaaaaa" "Hold-10")
+   ("holdtenaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaaaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaaaaaaaaaaaaaaa" "Hold-10")
+   ("buynoww" "Buy-Now")
+   ("cheater" "Cheat")
+   ("cheatera" "Cheat")
+   ("cheateraa" "Cheat")
+   ("cheateraaa" "Cheat")
+   ("cheateraaaa" "Cheat")
+   ("cheateraaaaa" "Cheat")
+   ("cheateraaaaaa" "Cheat")
+   ("cheateraaaaaaa" "Cheat")
+   ("cheateraaaaaaaa" "Cheat")
+   ("cheateraaaaaaaaa" "Cheat")
+   ("cheateraaaaaaaaaa" "Cheat")
+   ("cheateraaaaaaaaaaa" "Cheat"))
+  ("white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"))
+(*** expected)
+'((("buynoww")
+   ("cheater"
+    "cheatera"
+    "cheateraa"
+    "cheateraaa"
+    "cheateraaaa"
+    "cheateraaaaa"
+    "cheateraaaaaa"
+    "cheateraaaaaaa"
+    "cheateraaaaaaaa"
+    "cheateraaaaaaaaa"
+    "cheateraaaaaaaaaa"
+    "cheateraaaaaaaaaaa")))
+(*** but received)
+'(((plain fast with-newline plain-unicode) (#<eof>)))
+
+
+(testing /vagrant/canonical/10/ServerTests/3-in.json /vagrant/canonical/10/ServerTests/3-out.json)
+Traceback (most recent call last):
+  File "/home/vagrant/final-repos/b-repos/siuslaw/10/xserver", line 10, in <module>
+    from Trains.Admin.referee import NotEnoughDestinations
+ImportError: cannot import name 'NotEnoughDestinations'
+---------------------------------
+(*** score 0)
+(*** on)
+'(#hasheq((cities
+           .
+           (("19" (98 522))
+            ("18" (140 91))
+            ("17" (80 478))
+            ("16" (196 569))
+            ("15" (25 382))
+            ("14" (5 671))
+            ("13" (154 50))
+            ("12" (186 247))
+            ("11" (58 138))
+            ("10" (176 97))
+            ("9" (99 466))
+            ("8" (179 675))
+            ("7" (195 425))
+            ("6" (25 541))
+            ("5" (164 572))
+            ("4" (67 273))
+            ("3" (142 247))
+            ("2" (113 416))
+            ("1" (128 418))
+            ("0" (101 700))))
+          (connections
+           .
+           #hasheq((|0|
+                    .
+                    #hasheq((|17| . #hasheq((white . 3)))
+                            (|19| . #hasheq((white . 3)))
+                            (|9| . #hasheq((blue . 3)))))
+                   (|1|
+                    .
+                    #hasheq((|4| . #hasheq((white . 3)))
+                            (|6| . #hasheq((blue . 3)))
+                            (|8| . #hasheq((green . 3) (red . 3)))))
+                   (|10|
+                    .
+                    #hasheq((|14| . #hasheq((blue . 3)))
+                            (|15| . #hasheq((blue . 3)))
+                            (|4| . #hasheq((green . 3)))
+                            (|5| . #hasheq((red . 3)))))
+                   (|11|
+                    .
+                    #hasheq((|12| . #hasheq((red . 3)))
+                            (|13| . #hasheq((green . 3)))
+                            (|16| . #hasheq((blue . 3)))
+                            (|6| . #hasheq((white . 3)))))
+                   (|12| . #hasheq((|13| . #hasheq((blue . 3)))))
+                   (|13| . #hasheq((|17| . #hasheq((white . 3)))))
+                   (|14|
+                    .
+                    #hasheq((|16| . #hasheq((white . 3)))
+                            (|5| . #hasheq((white . 3)))
+                            (|7| . #hasheq((blue . 3) (red . 3)))
+                            (|8| . #hasheq((blue . 3)))))
+                   (|15| . #hasheq((|9| . #hasheq((blue . 3) (green . 3)))))
+                   (|16|
+                    .
+                    #hasheq((|18| . #hasheq((red . 3) (white . 3)))
+                            (|9| . #hasheq((white . 3)))))
+                   (|17|
+                    .
+                    #hasheq((|18| . #hasheq((green . 3)))
+                            (|9| . #hasheq((red . 3)))))
+                   (|18| . #hasheq((|2| . #hasheq((blue . 3)))))
+                   (|19|
+                    .
+                    #hasheq((|3| . #hasheq((red . 3)))
+                            (|6| . #hasheq((red . 3)))
+                            (|7| . #hasheq((green . 3)))
+                            (|9| . #hasheq((red . 3)))))
+                   (|2|
+                    .
+                    #hasheq((|3| . #hasheq((green . 3)))
+                            (|4| . #hasheq((white . 3)))
+                            (|8| . #hasheq((blue . 3) (white . 3)))
+                            (|9| . #hasheq((white . 3)))))
+                   (|3| . #hasheq())
+                   (|4| . #hasheq())
+                   (|5| . #hasheq((|6| . #hasheq((red . 3)))))
+                   (|6| . #hasheq())
+                   (|7| . #hasheq())
+                   (|8| . #hasheq())
+                   (|9| . #hasheq())))
+          (height . 800)
+          (width . 200))
+  (("holdten" "Hold-10")
+   ("holdtena" "Hold-10")
+   ("holdtenaa" "Hold-10")
+   ("holdtenaaa" "Hold-10")
+   ("holdtenaaaa" "Hold-10")
+   ("holdtenaaaaa" "Hold-10")
+   ("holdtenaaaaaa" "Hold-10")
+   ("holdtenaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaaaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaaaaaaaaaaaaaaa" "Hold-10")
+   ("buynoww" "Buy-Now")
+   ("abaddy" "player-bad-start"))
+  ("white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"))
+(*** expected)
+'((("buynoww") ("abaddy")))
+(*** but received)
+'(((plain fast with-newline plain-unicode) (#<eof>)))
+
+
+(testing /vagrant/canonical/10/ServerTests/4-in.json /vagrant/canonical/10/ServerTests/4-out.json)
+Traceback (most recent call last):
+  File "/home/vagrant/final-repos/b-repos/siuslaw/10/xserver", line 10, in <module>
+    from Trains.Admin.referee import NotEnoughDestinations
+ImportError: cannot import name 'NotEnoughDestinations'
+---------------------------------
+(*** score 0)
+(*** on)
+'(#hasheq((cities
+           .
+           (("19" (98 522))
+            ("18" (140 91))
+            ("17" (80 478))
+            ("16" (196 569))
+            ("15" (25 382))
+            ("14" (5 671))
+            ("13" (154 50))
+            ("12" (186 247))
+            ("11" (58 138))
+            ("10" (176 97))
+            ("9" (99 466))
+            ("8" (179 675))
+            ("7" (195 425))
+            ("6" (25 541))
+            ("5" (164 572))
+            ("4" (67 273))
+            ("3" (142 247))
+            ("2" (113 416))
+            ("1" (128 418))
+            ("0" (101 700))))
+          (connections
+           .
+           #hasheq((|0|
+                    .
+                    #hasheq((|17| . #hasheq((white . 3)))
+                            (|19| . #hasheq((white . 3)))
+                            (|9| . #hasheq((blue . 3)))))
+                   (|1|
+                    .
+                    #hasheq((|4| . #hasheq((white . 3)))
+                            (|6| . #hasheq((blue . 3)))
+                            (|8| . #hasheq((green . 3) (red . 3)))))
+                   (|10|
+                    .
+                    #hasheq((|14| . #hasheq((blue . 3)))
+                            (|15| . #hasheq((blue . 3)))
+                            (|4| . #hasheq((green . 3)))
+                            (|5| . #hasheq((red . 3)))))
+                   (|11|
+                    .
+                    #hasheq((|12| . #hasheq((red . 3)))
+                            (|13| . #hasheq((green . 3)))
+                            (|16| . #hasheq((blue . 3)))
+                            (|6| . #hasheq((white . 3)))))
+                   (|12| . #hasheq((|13| . #hasheq((blue . 3)))))
+                   (|13| . #hasheq((|17| . #hasheq((white . 3)))))
+                   (|14|
+                    .
+                    #hasheq((|16| . #hasheq((white . 3)))
+                            (|5| . #hasheq((white . 3)))
+                            (|7| . #hasheq((blue . 3) (red . 3)))
+                            (|8| . #hasheq((blue . 3)))))
+                   (|15| . #hasheq((|9| . #hasheq((blue . 3) (green . 3)))))
+                   (|16|
+                    .
+                    #hasheq((|18| . #hasheq((red . 3) (white . 3)))
+                            (|9| . #hasheq((white . 3)))))
+                   (|17|
+                    .
+                    #hasheq((|18| . #hasheq((green . 3)))
+                            (|9| . #hasheq((red . 3)))))
+                   (|18| . #hasheq((|2| . #hasheq((blue . 3)))))
+                   (|19|
+                    .
+                    #hasheq((|3| . #hasheq((red . 3)))
+                            (|6| . #hasheq((red . 3)))
+                            (|7| . #hasheq((green . 3)))
+                            (|9| . #hasheq((red . 3)))))
+                   (|2|
+                    .
+                    #hasheq((|3| . #hasheq((green . 3)))
+                            (|4| . #hasheq((white . 3)))
+                            (|8| . #hasheq((blue . 3) (white . 3)))
+                            (|9| . #hasheq((white . 3)))))
+                   (|3| . #hasheq())
+                   (|4| . #hasheq())
+                   (|5| . #hasheq((|6| . #hasheq((red . 3)))))
+                   (|6| . #hasheq())
+                   (|7| . #hasheq())
+                   (|8| . #hasheq())
+                   (|9| . #hasheq())))
+          (height . 800)
+          (width . 200))
+  (("holdten" "Hold-10")
+   ("holdtena" "Hold-10")
+   ("holdtenaa" "Hold-10")
+   ("holdtenaaa" "Hold-10")
+   ("holdtenaaaa" "Hold-10")
+   ("holdtenaaaaa" "Hold-10")
+   ("holdtenaaaaaa" "Hold-10")
+   ("holdtenaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaaaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaaaaaaaaaaaaaaa" "Hold-10")
+   ("buynoww" "Buy-Now")
+   ("abaddy" "player-bad-end"))
+  ("white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"))
+(*** expected)
+'((("buynoww") ("abaddy")))
+(*** but received)
+'(((plain fast with-newline plain-unicode) (#<eof>)))
+
+
+(testing /vagrant/canonical/10/ServerTests/5-in.json /vagrant/canonical/10/ServerTests/5-out.json)
+Traceback (most recent call last):
+  File "/home/vagrant/final-repos/b-repos/siuslaw/10/xserver", line 10, in <module>
+    from Trains.Admin.referee import NotEnoughDestinations
+ImportError: cannot import name 'NotEnoughDestinations'
+---------------------------------
+(*** score 0)
+(*** on)
+'(#hasheq((cities
+           .
+           (("19" (98 522))
+            ("18" (140 91))
+            ("17" (80 478))
+            ("16" (196 569))
+            ("15" (25 382))
+            ("14" (5 671))
+            ("13" (154 50))
+            ("12" (186 247))
+            ("11" (58 138))
+            ("10" (176 97))
+            ("9" (99 466))
+            ("8" (179 675))
+            ("7" (195 425))
+            ("6" (25 541))
+            ("5" (164 572))
+            ("4" (67 273))
+            ("3" (142 247))
+            ("2" (113 416))
+            ("1" (128 418))
+            ("0" (101 700))))
+          (connections
+           .
+           #hasheq((|0|
+                    .
+                    #hasheq((|17| . #hasheq((white . 3)))
+                            (|19| . #hasheq((white . 3)))
+                            (|9| . #hasheq((blue . 3)))))
+                   (|1|
+                    .
+                    #hasheq((|4| . #hasheq((white . 3)))
+                            (|6| . #hasheq((blue . 3)))
+                            (|8| . #hasheq((green . 3) (red . 3)))))
+                   (|10|
+                    .
+                    #hasheq((|14| . #hasheq((blue . 3)))
+                            (|15| . #hasheq((blue . 3)))
+                            (|4| . #hasheq((green . 3)))
+                            (|5| . #hasheq((red . 3)))))
+                   (|11|
+                    .
+                    #hasheq((|12| . #hasheq((red . 3)))
+                            (|13| . #hasheq((green . 3)))
+                            (|16| . #hasheq((blue . 3)))
+                            (|6| . #hasheq((white . 3)))))
+                   (|12| . #hasheq((|13| . #hasheq((blue . 3)))))
+                   (|13| . #hasheq((|17| . #hasheq((white . 3)))))
+                   (|14|
+                    .
+                    #hasheq((|16| . #hasheq((white . 3)))
+                            (|5| . #hasheq((white . 3)))
+                            (|7| . #hasheq((blue . 3) (red . 3)))
+                            (|8| . #hasheq((blue . 3)))))
+                   (|15| . #hasheq((|9| . #hasheq((blue . 3) (green . 3)))))
+                   (|16|
+                    .
+                    #hasheq((|18| . #hasheq((red . 3) (white . 3)))
+                            (|9| . #hasheq((white . 3)))))
+                   (|17|
+                    .
+                    #hasheq((|18| . #hasheq((green . 3)))
+                            (|9| . #hasheq((red . 3)))))
+                   (|18| . #hasheq((|2| . #hasheq((blue . 3)))))
+                   (|19|
+                    .
+                    #hasheq((|3| . #hasheq((red . 3)))
+                            (|6| . #hasheq((red . 3)))
+                            (|7| . #hasheq((green . 3)))
+                            (|9| . #hasheq((red . 3)))))
+                   (|2|
+                    .
+                    #hasheq((|3| . #hasheq((green . 3)))
+                            (|4| . #hasheq((white . 3)))
+                            (|8| . #hasheq((blue . 3) (white . 3)))
+                            (|9| . #hasheq((white . 3)))))
+                   (|3| . #hasheq())
+                   (|4| . #hasheq())
+                   (|5| . #hasheq((|6| . #hasheq((red . 3)))))
+                   (|6| . #hasheq())
+                   (|7| . #hasheq())
+                   (|8| . #hasheq())
+                   (|9| . #hasheq())))
+          (height . 800)
+          (width . 200))
+  (("cheater" "Cheat") ("abaddy" "player-bad-end"))
+  ("white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"))
+(*** expected)
+'((() ("abaddy" "cheater")))
+(*** but received)
+'(((plain fast with-newline plain-unicode) (#<eof>)))
+
+
+(testing /vagrant/canonical/10/ServerTests/6-in.json /vagrant/canonical/10/ServerTests/6-out.json)
+Traceback (most recent call last):
+  File "/home/vagrant/final-repos/b-repos/siuslaw/10/xserver", line 10, in <module>
+    from Trains.Admin.referee import NotEnoughDestinations
+ImportError: cannot import name 'NotEnoughDestinations'
+---------------------------------
+(*** score 0)
+(*** on)
+'(#hasheq((cities
+           .
+           (("19" (98 522))
+            ("18" (140 91))
+            ("17" (80 478))
+            ("16" (196 569))
+            ("15" (25 382))
+            ("14" (5 671))
+            ("13" (154 50))
+            ("12" (186 247))
+            ("11" (58 138))
+            ("10" (176 97))
+            ("9" (99 466))
+            ("8" (179 675))
+            ("7" (195 425))
+            ("6" (25 541))
+            ("5" (164 572))
+            ("4" (67 273))
+            ("3" (142 247))
+            ("2" (113 416))
+            ("1" (128 418))
+            ("0" (101 700))))
+          (connections
+           .
+           #hasheq((|0|
+                    .
+                    #hasheq((|17| . #hasheq((white . 3)))
+                            (|19| . #hasheq((white . 3)))
+                            (|9| . #hasheq((blue . 3)))))
+                   (|1|
+                    .
+                    #hasheq((|4| . #hasheq((white . 3)))
+                            (|6| . #hasheq((blue . 3)))
+                            (|8| . #hasheq((green . 3) (red . 3)))))
+                   (|10|
+                    .
+                    #hasheq((|14| . #hasheq((blue . 3)))
+                            (|15| . #hasheq((blue . 3)))
+                            (|4| . #hasheq((green . 3)))
+                            (|5| . #hasheq((red . 3)))))
+                   (|11|
+                    .
+                    #hasheq((|12| . #hasheq((red . 3)))
+                            (|13| . #hasheq((green . 3)))
+                            (|16| . #hasheq((blue . 3)))
+                            (|6| . #hasheq((white . 3)))))
+                   (|12| . #hasheq((|13| . #hasheq((blue . 3)))))
+                   (|13| . #hasheq((|17| . #hasheq((white . 3)))))
+                   (|14|
+                    .
+                    #hasheq((|16| . #hasheq((white . 3)))
+                            (|5| . #hasheq((white . 3)))
+                            (|7| . #hasheq((blue . 3) (red . 3)))
+                            (|8| . #hasheq((blue . 3)))))
+                   (|15| . #hasheq((|9| . #hasheq((blue . 3) (green . 3)))))
+                   (|16|
+                    .
+                    #hasheq((|18| . #hasheq((red . 3) (white . 3)))
+                            (|9| . #hasheq((white . 3)))))
+                   (|17|
+                    .
+                    #hasheq((|18| . #hasheq((green . 3)))
+                            (|9| . #hasheq((red . 3)))))
+                   (|18| . #hasheq((|2| . #hasheq((blue . 3)))))
+                   (|19|
+                    .
+                    #hasheq((|3| . #hasheq((red . 3)))
+                            (|6| . #hasheq((red . 3)))
+                            (|7| . #hasheq((green . 3)))
+                            (|9| . #hasheq((red . 3)))))
+                   (|2|
+                    .
+                    #hasheq((|3| . #hasheq((green . 3)))
+                            (|4| . #hasheq((white . 3)))
+                            (|8| . #hasheq((blue . 3) (white . 3)))
+                            (|9| . #hasheq((white . 3)))))
+                   (|3| . #hasheq())
+                   (|4| . #hasheq())
+                   (|5| . #hasheq((|6| . #hasheq((red . 3)))))
+                   (|6| . #hasheq())
+                   (|7| . #hasheq())
+                   (|8| . #hasheq())
+                   (|9| . #hasheq())))
+          (height . 800)
+          (width . 200))
+  (("buynoww" "Buy-Now")
+   ("abaddy" "player-bad-end")
+   ("abaddyb" "player-bad-end")
+   ("abaddybb" "player-bad-end"))
+  ("white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"))
+(*** expected)
+'((("buynoww") ("abaddy" "abaddyb" "abaddybb")))
+(*** but received)
+'(((plain fast with-newline plain-unicode) (#<eof>)))
+
+
+(testing /vagrant/canonical/10/ServerTests/7-in.json /vagrant/canonical/10/ServerTests/7-out.json)
+Traceback (most recent call last):
+  File "/home/vagrant/final-repos/b-repos/siuslaw/10/xserver", line 10, in <module>
+    from Trains.Admin.referee import NotEnoughDestinations
+ImportError: cannot import name 'NotEnoughDestinations'
+---------------------------------
+(*** score 0)
+(*** on)
+'(#hasheq((cities
+           .
+           (("19" (98 522))
+            ("18" (140 91))
+            ("17" (80 478))
+            ("16" (196 569))
+            ("15" (25 382))
+            ("14" (5 671))
+            ("13" (154 50))
+            ("12" (186 247))
+            ("11" (58 138))
+            ("10" (176 97))
+            ("9" (99 466))
+            ("8" (179 675))
+            ("7" (195 425))
+            ("6" (25 541))
+            ("5" (164 572))
+            ("4" (67 273))
+            ("3" (142 247))
+            ("2" (113 416))
+            ("1" (128 418))
+            ("0" (101 700))))
+          (connections
+           .
+           #hasheq((|0|
+                    .
+                    #hasheq((|17| . #hasheq((white . 3)))
+                            (|19| . #hasheq((white . 3)))
+                            (|9| . #hasheq((blue . 3)))))
+                   (|1|
+                    .
+                    #hasheq((|4| . #hasheq((white . 3)))
+                            (|6| . #hasheq((blue . 3)))
+                            (|8| . #hasheq((green . 3) (red . 3)))))
+                   (|10|
+                    .
+                    #hasheq((|14| . #hasheq((blue . 3)))
+                            (|15| . #hasheq((blue . 3)))
+                            (|4| . #hasheq((green . 3)))
+                            (|5| . #hasheq((red . 3)))))
+                   (|11|
+                    .
+                    #hasheq((|12| . #hasheq((red . 3)))
+                            (|13| . #hasheq((green . 3)))
+                            (|16| . #hasheq((blue . 3)))
+                            (|6| . #hasheq((white . 3)))))
+                   (|12| . #hasheq((|13| . #hasheq((blue . 3)))))
+                   (|13| . #hasheq((|17| . #hasheq((white . 3)))))
+                   (|14|
+                    .
+                    #hasheq((|16| . #hasheq((white . 3)))
+                            (|5| . #hasheq((white . 3)))
+                            (|7| . #hasheq((blue . 3) (red . 3)))
+                            (|8| . #hasheq((blue . 3)))))
+                   (|15| . #hasheq((|9| . #hasheq((blue . 3) (green . 3)))))
+                   (|16|
+                    .
+                    #hasheq((|18| . #hasheq((red . 3) (white . 3)))
+                            (|9| . #hasheq((white . 3)))))
+                   (|17|
+                    .
+                    #hasheq((|18| . #hasheq((green . 3)))
+                            (|9| . #hasheq((red . 3)))))
+                   (|18| . #hasheq((|2| . #hasheq((blue . 3)))))
+                   (|19|
+                    .
+                    #hasheq((|3| . #hasheq((red . 3)))
+                            (|6| . #hasheq((red . 3)))
+                            (|7| . #hasheq((green . 3)))
+                            (|9| . #hasheq((red . 3)))))
+                   (|2|
+                    .
+                    #hasheq((|3| . #hasheq((green . 3)))
+                            (|4| . #hasheq((white . 3)))
+                            (|8| . #hasheq((blue . 3) (white . 3)))
+                            (|9| . #hasheq((white . 3)))))
+                   (|3| . #hasheq())
+                   (|4| . #hasheq())
+                   (|5| . #hasheq((|6| . #hasheq((red . 3)))))
+                   (|6| . #hasheq())
+                   (|7| . #hasheq())
+                   (|8| . #hasheq())
+                   (|9| . #hasheq())))
+          (height . 800)
+          (width . 200))
+  (("buynoww" "Buy-Now") ("abaddy" "player-bad-win"))
+  ("white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"))
+(*** expected)
+'((("buynoww") ("abaddy")))
+(*** but received)
+'(((plain fast with-newline plain-unicode) (#<eof>)))
+
+
+(testing /vagrant/canonical/10/ServerTests/8-in.json /vagrant/canonical/10/ServerTests/8-out.json)
+Traceback (most recent call last):
+  File "/home/vagrant/final-repos/b-repos/siuslaw/10/xserver", line 10, in <module>
+    from Trains.Admin.referee import NotEnoughDestinations
+ImportError: cannot import name 'NotEnoughDestinations'
+---------------------------------
+(*** score 0)
+(*** on)
+'(#hasheq((cities
+           .
+           (("19" (145 796))
+            ("18" (142 667))
+            ("17" (88 44))
+            ("16" (1 534))
+            ("15" (78 117))
+            ("14" (135 551))
+            ("13" (57 368))
+            ("12" (46 601))
+            ("11" (28 68))
+            ("10" (81 278))
+            ("9" (121 619))
+            ("8" (44 266))
+            ("7" (66 179))
+            ("6" (76 222))
+            ("5" (100 162))
+            ("4" (171 69))
+            ("3" (195 708))
+            ("2" (23 712))
+            ("1" (30 655))
+            ("0" (183 432))))
+          (connections
+           .
+           #hasheq((|0|
+                    .
+                    #hasheq((|2| . #hasheq((red . 3)))
+                            (|5| . #hasheq((blue . 3)))))
+                   (|1| . #hasheq((|4| . #hasheq((green . 3)))))
+                   (|10|
+                    .
+                    #hasheq((|12| . #hasheq((green . 3)))
+                            (|15| . #hasheq((blue . 3)))
+                            (|16| . #hasheq((green . 3)))
+                            (|17| . #hasheq((red . 3)))
+                            (|19| . #hasheq((green . 3)))
+                            (|5| . #hasheq((white . 3)))
+                            (|7| . #hasheq((green . 3)))))
+                   (|11|
+                    .
+                    #hasheq((|13| . #hasheq((blue . 3)))
+                            (|2| . #hasheq((white . 3)))
+                            (|3| . #hasheq((blue . 3)))
+                            (|5| . #hasheq((white . 3)))))
+                   (|12|
+                    .
+                    #hasheq((|3| . #hasheq((white . 3)))
+                            (|5| . #hasheq((red . 3)))))
+                   (|13|
+                    .
+                    #hasheq((|14| . #hasheq((green . 3)))
+                            (|17| . #hasheq((white . 3)))
+                            (|19| . #hasheq((red . 3)))))
+                   (|14|
+                    .
+                    #hasheq((|15| . #hasheq((white . 3)))
+                            (|18| . #hasheq((white . 3)))
+                            (|8| . #hasheq((white . 3)))))
+                   (|15|
+                    .
+                    #hasheq((|5| . #hasheq((green . 3)))
+                            (|9| . #hasheq((white . 3)))))
+                   (|16|
+                    .
+                    #hasheq((|19| . #hasheq((green . 3)))
+                            (|3| . #hasheq((red . 3)))))
+                   (|17| . #hasheq((|4| . #hasheq((blue . 3)))))
+                   (|18|
+                    .
+                    #hasheq((|3| . #hasheq((red . 3)))
+                            (|4| . #hasheq((blue . 3) (white . 3)))))
+                   (|19|
+                    .
+                    #hasheq((|2| . #hasheq((green . 3)))
+                            (|4| . #hasheq((green . 3)))))
+                   (|2| . #hasheq((|3| . #hasheq((white . 3)))))
+                   (|3|
+                    .
+                    #hasheq((|4| . #hasheq((green . 3) (red . 3)))
+                            (|6| . #hasheq((blue . 3)))))
+                   (|4| . #hasheq())
+                   (|5| . #hasheq((|8| . #hasheq((red . 3)))))
+                   (|6| . #hasheq((|8| . #hasheq((white . 3)))))
+                   (|7| . #hasheq())
+                   (|8| . #hasheq())
+                   (|9| . #hasheq())))
+          (height . 800)
+          (width . 200))
+  (("holdten" "Hold-10")
+   ("holdtena" "Hold-10")
+   ("holdtenaa" "Hold-10")
+   ("holdtenaaa" "Hold-10")
+   ("holdtenaaaa" "Hold-10")
+   ("holdtenaaaaa" "Hold-10")
+   ("holdtenaaaaaa" "Hold-10")
+   ("holdtenaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaaaaa" "Hold-10")
+   ("buynoww" "Buy-Now")
+   ("cheater" "Cheat")
+   ("cheatera" "Cheat")
+   ("cheateraa" "Cheat")
+   ("cheateraaa" "Cheat")
+   ("cheateraaaa" "Cheat")
+   ("cheateraaaaa" "Cheat")
+   ("cheateraaaaaa" "Cheat")
+   ("cheateraaaaaaa" "Cheat")
+   ("cheateraaaaaaaa" "Cheat")
+   ("cheateraaaaaaaaa" "Cheat"))
+  ("white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"))
+(*** expected)
+'((("buynoww")
+   ("cheater"
+    "cheatera"
+    "cheateraa"
+    "cheateraaa"
+    "cheateraaaa"
+    "cheateraaaaa"
+    "cheateraaaaaa"
+    "cheateraaaaaaa"
+    "cheateraaaaaaaa"
+    "cheateraaaaaaaaa")))
+(*** but received)
+'(((plain fast with-newline plain-unicode) (#<eof>)))
+
+
+(testing /vagrant/canonical/10/ServerTests/9-in.json /vagrant/canonical/10/ServerTests/9-out.json)
+Traceback (most recent call last):
+  File "/home/vagrant/final-repos/b-repos/siuslaw/10/xserver", line 10, in <module>
+    from Trains.Admin.referee import NotEnoughDestinations
+ImportError: cannot import name 'NotEnoughDestinations'
+---------------------------------
+(*** score 0)
+(*** on)
+'(#hasheq((cities
+           .
+           (("19" (145 796))
+            ("18" (142 667))
+            ("17" (88 44))
+            ("16" (1 534))
+            ("15" (78 117))
+            ("14" (135 551))
+            ("13" (57 368))
+            ("12" (46 601))
+            ("11" (28 68))
+            ("10" (81 278))
+            ("9" (121 619))
+            ("8" (44 266))
+            ("7" (66 179))
+            ("6" (76 222))
+            ("5" (100 162))
+            ("4" (171 69))
+            ("3" (195 708))
+            ("2" (23 712))
+            ("1" (30 655))
+            ("0" (183 432))))
+          (connections
+           .
+           #hasheq((|0|
+                    .
+                    #hasheq((|2| . #hasheq((red . 3)))
+                            (|5| . #hasheq((blue . 3)))))
+                   (|1| . #hasheq((|4| . #hasheq((green . 3)))))
+                   (|10|
+                    .
+                    #hasheq((|12| . #hasheq((green . 3)))
+                            (|15| . #hasheq((blue . 3)))
+                            (|16| . #hasheq((green . 3)))
+                            (|17| . #hasheq((red . 3)))
+                            (|19| . #hasheq((green . 3)))
+                            (|5| . #hasheq((white . 3)))
+                            (|7| . #hasheq((green . 3)))))
+                   (|11|
+                    .
+                    #hasheq((|13| . #hasheq((blue . 3)))
+                            (|2| . #hasheq((white . 3)))
+                            (|3| . #hasheq((blue . 3)))
+                            (|5| . #hasheq((white . 3)))))
+                   (|12|
+                    .
+                    #hasheq((|3| . #hasheq((white . 3)))
+                            (|5| . #hasheq((red . 3)))))
+                   (|13|
+                    .
+                    #hasheq((|14| . #hasheq((green . 3)))
+                            (|17| . #hasheq((white . 3)))
+                            (|19| . #hasheq((red . 3)))))
+                   (|14|
+                    .
+                    #hasheq((|15| . #hasheq((white . 3)))
+                            (|18| . #hasheq((white . 3)))
+                            (|8| . #hasheq((white . 3)))))
+                   (|15|
+                    .
+                    #hasheq((|5| . #hasheq((green . 3)))
+                            (|9| . #hasheq((white . 3)))))
+                   (|16|
+                    .
+                    #hasheq((|19| . #hasheq((green . 3)))
+                            (|3| . #hasheq((red . 3)))))
+                   (|17| . #hasheq((|4| . #hasheq((blue . 3)))))
+                   (|18|
+                    .
+                    #hasheq((|3| . #hasheq((red . 3)))
+                            (|4| . #hasheq((blue . 3) (white . 3)))))
+                   (|19|
+                    .
+                    #hasheq((|2| . #hasheq((green . 3)))
+                            (|4| . #hasheq((green . 3)))))
+                   (|2| . #hasheq((|3| . #hasheq((white . 3)))))
+                   (|3|
+                    .
+                    #hasheq((|4| . #hasheq((green . 3) (red . 3)))
+                            (|6| . #hasheq((blue . 3)))))
+                   (|4| . #hasheq())
+                   (|5| . #hasheq((|8| . #hasheq((red . 3)))))
+                   (|6| . #hasheq((|8| . #hasheq((white . 3)))))
+                   (|7| . #hasheq())
+                   (|8| . #hasheq())
+                   (|9| . #hasheq())))
+          (height . 800)
+          (width . 200))
+  (("holdten" "Hold-10")
+   ("holdtena" "Hold-10")
+   ("holdtenaa" "Hold-10")
+   ("holdtenaaa" "Hold-10")
+   ("holdtenaaaa" "Hold-10")
+   ("holdtenaaaaa" "Hold-10")
+   ("holdtenaaaaaa" "Hold-10")
+   ("holdtenaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaaaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaaaaaaaaaaaaaaa" "Hold-10")
+   ("buynoww" "Buy-Now")
+   ("cheater" "Cheat")
+   ("cheatera" "Cheat")
+   ("cheateraa" "Cheat")
+   ("cheateraaa" "Cheat")
+   ("cheateraaaa" "Cheat")
+   ("cheateraaaaa" "Cheat")
+   ("cheateraaaaaa" "Cheat")
+   ("cheateraaaaaaa" "Cheat")
+   ("cheateraaaaaaaa" "Cheat")
+   ("cheateraaaaaaaaa" "Cheat")
+   ("cheateraaaaaaaaaa" "Cheat")
+   ("cheateraaaaaaaaaaa" "Cheat"))
+  ("white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"))
+(*** expected)
+'((("holdten"
+    "holdtena"
+    "holdtenaa"
+    "holdtenaaa"
+    "holdtenaaaaaaaaaaaaaaaa"
+    "holdtenaaaaaaaaaaaaaaaaa")
+   ("cheater"
+    "cheatera"
+    "cheateraa"
+    "cheateraaa"
+    "cheateraaaa"
+    "cheateraaaaa"
+    "cheateraaaaaa"
+    "cheateraaaaaaa"
+    "cheateraaaaaaaa"
+    "cheateraaaaaaaaa"
+    "cheateraaaaaaaaaa"
+    "cheateraaaaaaaaaaa")))
+(*** but received)
+'(((plain fast with-newline plain-unicode) (#<eof>)))
+
+
+()
+((passed 0) (total 14) (partial-score 0))

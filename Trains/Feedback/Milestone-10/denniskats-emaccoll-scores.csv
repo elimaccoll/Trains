@@ -1,0 +1,10 @@
+description,score,max
+../Trains/Remote/server exist,5,5
+../Trains/Remote/client exist,5,5
+xserver exist,5,5
+xclients exist,5,5
+server tests,0,140
+client tests,0,60
+bonus tests,0,0
+code inspection,88,100
+total,108,320

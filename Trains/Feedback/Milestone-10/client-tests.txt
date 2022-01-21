@@ -1,0 +1,2369 @@
+(testing /home/vagrant/final-repos/b-repos/siuslaw/10/xclients /vagrant/canonical/10/xserver)
+(testing /vagrant/canonical/10/ClientTests/1-in.json /vagrant/canonical/10/ClientTests/1-out.json)
+---------------------------------
+(*** score 0)
+(*** on)
+'(#hasheq((cities
+           .
+           (("c19" (62 565))
+            ("c18" (69 479))
+            ("c17" (29 460))
+            ("c16" (149 423))
+            ("c15" (122 412))
+            ("c14" (9 610))
+            ("c13" (130 655))
+            ("c12" (69 467))
+            ("c11" (5 469))
+            ("c10" (107 636))
+            ("c9" (199 704))
+            ("c8" (38 689))
+            ("c7" (189 727))
+            ("c6" (188 221))
+            ("c5" (42 93))
+            ("c4" (144 538))
+            ("c3" (111 229))
+            ("c2" (51 486))
+            ("c1" (168 607))
+            ("c0" (61 202))))
+          (connections
+           .
+           #hasheq((c0
+                    .
+                    #hasheq((c13 . #hasheq((green . 3)))
+                            (c19 . #hasheq((white . 3)))
+                            (c3 . #hasheq((white . 3)))
+                            (c7 . #hasheq((red . 3)))))
+                   (c1
+                    .
+                    #hasheq((c10 . #hasheq((blue . 3)))
+                            (c11 . #hasheq((white . 3)))
+                            (c12 . #hasheq((green . 3)))
+                            (c15 . #hasheq((green . 3)))
+                            (c3 . #hasheq((blue . 3)))))
+                   (c10
+                    .
+                    #hasheq((c13 . #hasheq((green . 3)))
+                            (c2 . #hasheq((blue . 3)))
+                            (c7 . #hasheq((green . 3)))))
+                   (c11
+                    .
+                    #hasheq((c13 . #hasheq((green . 3)))
+                            (c8 . #hasheq((red . 3)))))
+                   (c12
+                    .
+                    #hasheq((c16 . #hasheq((green . 3)))
+                            (c18 . #hasheq((green . 3)))
+                            (c19 . #hasheq((red . 3)))
+                            (c2 . #hasheq((white . 3)))
+                            (c6 . #hasheq((green . 3) (white . 3)))))
+                   (c13 . #hasheq((c4 . #hasheq((green . 3)))))
+                   (c14 . #hasheq())
+                   (c15
+                    .
+                    #hasheq((c7 . #hasheq((blue . 3)))
+                            (c9 . #hasheq((white . 3)))))
+                   (c16
+                    .
+                    #hasheq((c17 . #hasheq((green . 3)))
+                            (c2 . #hasheq((green . 3)))))
+                   (c17
+                    .
+                    #hasheq((c3 . #hasheq((blue . 3)))
+                            (c5 . #hasheq((green . 3) (red . 3)))
+                            (c7 . #hasheq((blue . 3) (red . 3)))
+                            (c9 . #hasheq((blue . 3)))))
+                   (c18
+                    .
+                    #hasheq((c6 . #hasheq((white . 3)))
+                            (c9 . #hasheq((white . 3)))))
+                   (c19
+                    .
+                    #hasheq((c6 . #hasheq((blue . 3)))
+                            (c8 . #hasheq((red . 3)))))
+                   (c2 . #hasheq((c5 . #hasheq((green . 3)))))
+                   (c3 . #hasheq((c9 . #hasheq((blue . 3)))))
+                   (c4 . #hasheq())
+                   (c5
+                    .
+                    #hasheq((c6 . #hasheq((white . 3)))
+                            (c7 . #hasheq((green . 3)))
+                            (c8 . #hasheq((blue . 3)))))
+                   (c6 . #hasheq())
+                   (c7 . #hasheq())
+                   (c8 . #hasheq())
+                   (c9 . #hasheq())))
+          (height . 800)
+          (width . 200))
+  (("holdten" "Hold-10")
+   ("holdtena" "Hold-10")
+   ("holdtenaa" "Hold-10")
+   ("holdtenaaa" "Hold-10")
+   ("holdtenaaaa" "Hold-10")
+   ("holdtenaaaaa" "Hold-10")
+   ("holdtenaaaaaa" "Hold-10")
+   ("holdtenaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaaaaa" "Hold-10")
+   ("buynoww" "Buy-Now")
+   ("cheater" "Cheat")
+   ("cheatera" "Cheat")
+   ("cheateraa" "Cheat")
+   ("cheateraaa" "Cheat")
+   ("cheateraaaa" "Cheat")
+   ("cheateraaaaa" "Cheat")
+   ("cheateraaaaaa" "Cheat")
+   ("cheateraaaaaaa" "Cheat")
+   ("cheateraaaaaaaa" "Cheat")
+   ("cheateraaaaaaaaa" "Cheat"))
+  ("white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"))
+(*** expected)
+'((("buynoww")
+   ("cheater"
+    "cheatera"
+    "cheateraa"
+    "cheateraaa"
+    "cheateraaaa"
+    "cheateraaaaa"
+    "cheateraaaaaa"
+    "cheateraaaaaaa"
+    "cheateraaaaaaaa"
+    "cheateraaaaaaaaa")))
+(*** but received)
+'(((plain fast with-newline plain-unicode) ()))
+
+
+(testing /vagrant/canonical/10/ClientTests/2-in.json /vagrant/canonical/10/ClientTests/2-out.json)
+---------------------------------
+(*** score 0)
+(*** on)
+'(#hasheq((cities
+           .
+           (("c19" (62 565))
+            ("c18" (69 479))
+            ("c17" (29 460))
+            ("c16" (149 423))
+            ("c15" (122 412))
+            ("c14" (9 610))
+            ("c13" (130 655))
+            ("c12" (69 467))
+            ("c11" (5 469))
+            ("c10" (107 636))
+            ("c9" (199 704))
+            ("c8" (38 689))
+            ("c7" (189 727))
+            ("c6" (188 221))
+            ("c5" (42 93))
+            ("c4" (144 538))
+            ("c3" (111 229))
+            ("c2" (51 486))
+            ("c1" (168 607))
+            ("c0" (61 202))))
+          (connections
+           .
+           #hasheq((c0
+                    .
+                    #hasheq((c13 . #hasheq((green . 3)))
+                            (c19 . #hasheq((white . 3)))
+                            (c3 . #hasheq((white . 3)))
+                            (c7 . #hasheq((red . 3)))))
+                   (c1
+                    .
+                    #hasheq((c10 . #hasheq((blue . 3)))
+                            (c11 . #hasheq((white . 3)))
+                            (c12 . #hasheq((green . 3)))
+                            (c15 . #hasheq((green . 3)))
+                            (c3 . #hasheq((blue . 3)))))
+                   (c10
+                    .
+                    #hasheq((c13 . #hasheq((green . 3)))
+                            (c2 . #hasheq((blue . 3)))
+                            (c7 . #hasheq((green . 3)))))
+                   (c11
+                    .
+                    #hasheq((c13 . #hasheq((green . 3)))
+                            (c8 . #hasheq((red . 3)))))
+                   (c12
+                    .
+                    #hasheq((c16 . #hasheq((green . 3)))
+                            (c18 . #hasheq((green . 3)))
+                            (c19 . #hasheq((red . 3)))
+                            (c2 . #hasheq((white . 3)))
+                            (c6 . #hasheq((green . 3) (white . 3)))))
+                   (c13 . #hasheq((c4 . #hasheq((green . 3)))))
+                   (c14 . #hasheq())
+                   (c15
+                    .
+                    #hasheq((c7 . #hasheq((blue . 3)))
+                            (c9 . #hasheq((white . 3)))))
+                   (c16
+                    .
+                    #hasheq((c17 . #hasheq((green . 3)))
+                            (c2 . #hasheq((green . 3)))))
+                   (c17
+                    .
+                    #hasheq((c3 . #hasheq((blue . 3)))
+                            (c5 . #hasheq((green . 3) (red . 3)))
+                            (c7 . #hasheq((blue . 3) (red . 3)))
+                            (c9 . #hasheq((blue . 3)))))
+                   (c18
+                    .
+                    #hasheq((c6 . #hasheq((white . 3)))
+                            (c9 . #hasheq((white . 3)))))
+                   (c19
+                    .
+                    #hasheq((c6 . #hasheq((blue . 3)))
+                            (c8 . #hasheq((red . 3)))))
+                   (c2 . #hasheq((c5 . #hasheq((green . 3)))))
+                   (c3 . #hasheq((c9 . #hasheq((blue . 3)))))
+                   (c4 . #hasheq())
+                   (c5
+                    .
+                    #hasheq((c6 . #hasheq((white . 3)))
+                            (c7 . #hasheq((green . 3)))
+                            (c8 . #hasheq((blue . 3)))))
+                   (c6 . #hasheq())
+                   (c7 . #hasheq())
+                   (c8 . #hasheq())
+                   (c9 . #hasheq())))
+          (height . 800)
+          (width . 200))
+  (("holdten" "Hold-10")
+   ("holdtena" "Hold-10")
+   ("holdtenaa" "Hold-10")
+   ("holdtenaaa" "Hold-10")
+   ("holdtenaaaa" "Hold-10")
+   ("holdtenaaaaa" "Hold-10")
+   ("holdtenaaaaaa" "Hold-10")
+   ("holdtenaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaaaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaaaaaaaaaaaaaaa" "Hold-10")
+   ("buynoww" "Buy-Now")
+   ("cheater" "Cheat")
+   ("cheatera" "Cheat")
+   ("cheateraa" "Cheat")
+   ("cheateraaa" "Cheat")
+   ("cheateraaaa" "Cheat")
+   ("cheateraaaaa" "Cheat")
+   ("cheateraaaaaa" "Cheat")
+   ("cheateraaaaaaa" "Cheat")
+   ("cheateraaaaaaaa" "Cheat")
+   ("cheateraaaaaaaaa" "Cheat")
+   ("cheateraaaaaaaaaa" "Cheat")
+   ("cheateraaaaaaaaaaa" "Cheat"))
+  ("white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"))
+(*** expected)
+'((("buynoww")
+   ("cheater"
+    "cheatera"
+    "cheateraa"
+    "cheateraaa"
+    "cheateraaaa"
+    "cheateraaaaa"
+    "cheateraaaaaa"
+    "cheateraaaaaaa"
+    "cheateraaaaaaaa"
+    "cheateraaaaaaaaa"
+    "cheateraaaaaaaaaa"
+    "cheateraaaaaaaaaaa")))
+(*** but received)
+'(((plain fast with-newline plain-unicode) ()))
+
+
+(testing /vagrant/canonical/10/ClientTests/3-in.json /vagrant/canonical/10/ClientTests/3-out.json)
+---------------------------------
+(*** score 0)
+(*** on)
+'(#hasheq((cities
+           .
+           (("c19" (98 522))
+            ("c18" (140 91))
+            ("c17" (80 478))
+            ("c16" (196 569))
+            ("c15" (25 382))
+            ("c14" (5 671))
+            ("c13" (154 50))
+            ("c12" (186 247))
+            ("c11" (58 138))
+            ("c10" (176 97))
+            ("c9" (99 466))
+            ("c8" (179 675))
+            ("c7" (195 425))
+            ("c6" (25 541))
+            ("c5" (164 572))
+            ("c4" (67 273))
+            ("c3" (142 247))
+            ("c2" (113 416))
+            ("c1" (128 418))
+            ("c0" (101 700))))
+          (connections
+           .
+           #hasheq((c0
+                    .
+                    #hasheq((c17 . #hasheq((white . 3)))
+                            (c19 . #hasheq((white . 3)))
+                            (c9 . #hasheq((blue . 3)))))
+                   (c1
+                    .
+                    #hasheq((c4 . #hasheq((white . 3)))
+                            (c6 . #hasheq((blue . 3)))
+                            (c8 . #hasheq((green . 3) (red . 3)))))
+                   (c10
+                    .
+                    #hasheq((c14 . #hasheq((blue . 3)))
+                            (c15 . #hasheq((blue . 3)))
+                            (c4 . #hasheq((green . 3)))
+                            (c5 . #hasheq((red . 3)))))
+                   (c11
+                    .
+                    #hasheq((c12 . #hasheq((red . 3)))
+                            (c13 . #hasheq((green . 3)))
+                            (c16 . #hasheq((blue . 3)))
+                            (c6 . #hasheq((white . 3)))))
+                   (c12 . #hasheq((c13 . #hasheq((blue . 3)))))
+                   (c13 . #hasheq((c17 . #hasheq((white . 3)))))
+                   (c14
+                    .
+                    #hasheq((c16 . #hasheq((white . 3)))
+                            (c5 . #hasheq((white . 3)))
+                            (c7 . #hasheq((blue . 3) (red . 3)))
+                            (c8 . #hasheq((blue . 3)))))
+                   (c15 . #hasheq((c9 . #hasheq((blue . 3) (green . 3)))))
+                   (c16
+                    .
+                    #hasheq((c18 . #hasheq((red . 3) (white . 3)))
+                            (c9 . #hasheq((white . 3)))))
+                   (c17
+                    .
+                    #hasheq((c18 . #hasheq((green . 3)))
+                            (c9 . #hasheq((red . 3)))))
+                   (c18 . #hasheq((c2 . #hasheq((blue . 3)))))
+                   (c19
+                    .
+                    #hasheq((c3 . #hasheq((red . 3)))
+                            (c6 . #hasheq((red . 3)))
+                            (c7 . #hasheq((green . 3)))
+                            (c9 . #hasheq((red . 3)))))
+                   (c2
+                    .
+                    #hasheq((c3 . #hasheq((green . 3)))
+                            (c4 . #hasheq((white . 3)))
+                            (c8 . #hasheq((blue . 3) (white . 3)))
+                            (c9 . #hasheq((white . 3)))))
+                   (c3 . #hasheq())
+                   (c4 . #hasheq())
+                   (c5 . #hasheq((c6 . #hasheq((red . 3)))))
+                   (c6 . #hasheq())
+                   (c7 . #hasheq())
+                   (c8 . #hasheq())
+                   (c9 . #hasheq())))
+          (height . 800)
+          (width . 200))
+  (("holdten" "Hold-10")
+   ("holdtena" "Hold-10")
+   ("holdtenaa" "Hold-10")
+   ("holdtenaaa" "Hold-10")
+   ("holdtenaaaa" "Hold-10")
+   ("holdtenaaaaa" "Hold-10")
+   ("holdtenaaaaaa" "Hold-10")
+   ("holdtenaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaaaaa" "Hold-10")
+   ("buynoww" "Buy-Now")
+   ("cheater" "Cheat")
+   ("cheatera" "Cheat")
+   ("cheateraa" "Cheat")
+   ("cheateraaa" "Cheat")
+   ("cheateraaaa" "Cheat")
+   ("cheateraaaaa" "Cheat")
+   ("cheateraaaaaa" "Cheat")
+   ("cheateraaaaaaa" "Cheat")
+   ("cheateraaaaaaaa" "Cheat")
+   ("cheateraaaaaaaaa" "Cheat"))
+  ("white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"))
+(*** expected)
+'((("buynoww")
+   ("cheater"
+    "cheatera"
+    "cheateraa"
+    "cheateraaa"
+    "cheateraaaa"
+    "cheateraaaaa"
+    "cheateraaaaaa"
+    "cheateraaaaaaa"
+    "cheateraaaaaaaa"
+    "cheateraaaaaaaaa")))
+(*** but received)
+'(((plain fast with-newline plain-unicode) ()))
+
+
+(testing /vagrant/canonical/10/ClientTests/4-in.json /vagrant/canonical/10/ClientTests/4-out.json)
+---------------------------------
+(*** score 0)
+(*** on)
+'(#hasheq((cities
+           .
+           (("c19" (98 522))
+            ("c18" (140 91))
+            ("c17" (80 478))
+            ("c16" (196 569))
+            ("c15" (25 382))
+            ("c14" (5 671))
+            ("c13" (154 50))
+            ("c12" (186 247))
+            ("c11" (58 138))
+            ("c10" (176 97))
+            ("c9" (99 466))
+            ("c8" (179 675))
+            ("c7" (195 425))
+            ("c6" (25 541))
+            ("c5" (164 572))
+            ("c4" (67 273))
+            ("c3" (142 247))
+            ("c2" (113 416))
+            ("c1" (128 418))
+            ("c0" (101 700))))
+          (connections
+           .
+           #hasheq((c0
+                    .
+                    #hasheq((c17 . #hasheq((white . 3)))
+                            (c19 . #hasheq((white . 3)))
+                            (c9 . #hasheq((blue . 3)))))
+                   (c1
+                    .
+                    #hasheq((c4 . #hasheq((white . 3)))
+                            (c6 . #hasheq((blue . 3)))
+                            (c8 . #hasheq((green . 3) (red . 3)))))
+                   (c10
+                    .
+                    #hasheq((c14 . #hasheq((blue . 3)))
+                            (c15 . #hasheq((blue . 3)))
+                            (c4 . #hasheq((green . 3)))
+                            (c5 . #hasheq((red . 3)))))
+                   (c11
+                    .
+                    #hasheq((c12 . #hasheq((red . 3)))
+                            (c13 . #hasheq((green . 3)))
+                            (c16 . #hasheq((blue . 3)))
+                            (c6 . #hasheq((white . 3)))))
+                   (c12 . #hasheq((c13 . #hasheq((blue . 3)))))
+                   (c13 . #hasheq((c17 . #hasheq((white . 3)))))
+                   (c14
+                    .
+                    #hasheq((c16 . #hasheq((white . 3)))
+                            (c5 . #hasheq((white . 3)))
+                            (c7 . #hasheq((blue . 3) (red . 3)))
+                            (c8 . #hasheq((blue . 3)))))
+                   (c15 . #hasheq((c9 . #hasheq((blue . 3) (green . 3)))))
+                   (c16
+                    .
+                    #hasheq((c18 . #hasheq((red . 3) (white . 3)))
+                            (c9 . #hasheq((white . 3)))))
+                   (c17
+                    .
+                    #hasheq((c18 . #hasheq((green . 3)))
+                            (c9 . #hasheq((red . 3)))))
+                   (c18 . #hasheq((c2 . #hasheq((blue . 3)))))
+                   (c19
+                    .
+                    #hasheq((c3 . #hasheq((red . 3)))
+                            (c6 . #hasheq((red . 3)))
+                            (c7 . #hasheq((green . 3)))
+                            (c9 . #hasheq((red . 3)))))
+                   (c2
+                    .
+                    #hasheq((c3 . #hasheq((green . 3)))
+                            (c4 . #hasheq((white . 3)))
+                            (c8 . #hasheq((blue . 3) (white . 3)))
+                            (c9 . #hasheq((white . 3)))))
+                   (c3 . #hasheq())
+                   (c4 . #hasheq())
+                   (c5 . #hasheq((c6 . #hasheq((red . 3)))))
+                   (c6 . #hasheq())
+                   (c7 . #hasheq())
+                   (c8 . #hasheq())
+                   (c9 . #hasheq())))
+          (height . 800)
+          (width . 200))
+  (("holdten" "Hold-10")
+   ("holdtena" "Hold-10")
+   ("holdtenaa" "Hold-10")
+   ("holdtenaaa" "Hold-10")
+   ("holdtenaaaa" "Hold-10")
+   ("holdtenaaaaa" "Hold-10")
+   ("holdtenaaaaaa" "Hold-10")
+   ("holdtenaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaaaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaaaaaaaaaaaaaaa" "Hold-10")
+   ("buynoww" "Buy-Now")
+   ("cheater" "Cheat")
+   ("cheatera" "Cheat")
+   ("cheateraa" "Cheat")
+   ("cheateraaa" "Cheat")
+   ("cheateraaaa" "Cheat")
+   ("cheateraaaaa" "Cheat")
+   ("cheateraaaaaa" "Cheat")
+   ("cheateraaaaaaa" "Cheat")
+   ("cheateraaaaaaaa" "Cheat")
+   ("cheateraaaaaaaaa" "Cheat")
+   ("cheateraaaaaaaaaa" "Cheat")
+   ("cheateraaaaaaaaaaa" "Cheat"))
+  ("white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"))
+(*** expected)
+'((("buynoww")
+   ("cheater"
+    "cheatera"
+    "cheateraa"
+    "cheateraaa"
+    "cheateraaaa"
+    "cheateraaaaa"
+    "cheateraaaaaa"
+    "cheateraaaaaaa"
+    "cheateraaaaaaaa"
+    "cheateraaaaaaaaa"
+    "cheateraaaaaaaaaa"
+    "cheateraaaaaaaaaaa")))
+(*** but received)
+'(((plain fast with-newline plain-unicode)
+   ("Timed out waiting for reading to start.")))
+
+
+(testing /vagrant/canonical/10/ClientTests/5-in.json /vagrant/canonical/10/ClientTests/5-out.json)
+---------------------------------
+(*** score 0)
+(*** on)
+'(#hasheq((cities
+           .
+           (("c19" (145 796))
+            ("c18" (142 667))
+            ("c17" (88 44))
+            ("c16" (1 534))
+            ("c15" (78 117))
+            ("c14" (135 551))
+            ("c13" (57 368))
+            ("c12" (46 601))
+            ("c11" (28 68))
+            ("c10" (81 278))
+            ("c9" (121 619))
+            ("c8" (44 266))
+            ("c7" (66 179))
+            ("c6" (76 222))
+            ("c5" (100 162))
+            ("c4" (171 69))
+            ("c3" (195 708))
+            ("c2" (23 712))
+            ("c1" (30 655))
+            ("c0" (183 432))))
+          (connections
+           .
+           #hasheq((c0
+                    .
+                    #hasheq((c2 . #hasheq((red . 3)))
+                            (c5 . #hasheq((blue . 3)))))
+                   (c1 . #hasheq((c4 . #hasheq((green . 3)))))
+                   (c10
+                    .
+                    #hasheq((c12 . #hasheq((green . 3)))
+                            (c15 . #hasheq((blue . 3)))
+                            (c16 . #hasheq((green . 3)))
+                            (c17 . #hasheq((red . 3)))
+                            (c19 . #hasheq((green . 3)))
+                            (c5 . #hasheq((white . 3)))
+                            (c7 . #hasheq((green . 3)))))
+                   (c11
+                    .
+                    #hasheq((c13 . #hasheq((blue . 3)))
+                            (c2 . #hasheq((white . 3)))
+                            (c3 . #hasheq((blue . 3)))
+                            (c5 . #hasheq((white . 3)))))
+                   (c12
+                    .
+                    #hasheq((c3 . #hasheq((white . 3)))
+                            (c5 . #hasheq((red . 3)))))
+                   (c13
+                    .
+                    #hasheq((c14 . #hasheq((green . 3)))
+                            (c17 . #hasheq((white . 3)))
+                            (c19 . #hasheq((red . 3)))))
+                   (c14
+                    .
+                    #hasheq((c15 . #hasheq((white . 3)))
+                            (c18 . #hasheq((white . 3)))
+                            (c8 . #hasheq((white . 3)))))
+                   (c15
+                    .
+                    #hasheq((c5 . #hasheq((green . 3)))
+                            (c9 . #hasheq((white . 3)))))
+                   (c16
+                    .
+                    #hasheq((c19 . #hasheq((green . 3)))
+                            (c3 . #hasheq((red . 3)))))
+                   (c17 . #hasheq((c4 . #hasheq((blue . 3)))))
+                   (c18
+                    .
+                    #hasheq((c3 . #hasheq((red . 3)))
+                            (c4 . #hasheq((blue . 3) (white . 3)))))
+                   (c19
+                    .
+                    #hasheq((c2 . #hasheq((green . 3)))
+                            (c4 . #hasheq((green . 3)))))
+                   (c2 . #hasheq((c3 . #hasheq((white . 3)))))
+                   (c3
+                    .
+                    #hasheq((c4 . #hasheq((green . 3) (red . 3)))
+                            (c6 . #hasheq((blue . 3)))))
+                   (c4 . #hasheq())
+                   (c5 . #hasheq((c8 . #hasheq((red . 3)))))
+                   (c6 . #hasheq((c8 . #hasheq((white . 3)))))
+                   (c7 . #hasheq())
+                   (c8 . #hasheq())
+                   (c9 . #hasheq())))
+          (height . 800)
+          (width . 200))
+  (("holdten" "Hold-10")
+   ("holdtena" "Hold-10")
+   ("holdtenaa" "Hold-10")
+   ("holdtenaaa" "Hold-10")
+   ("holdtenaaaa" "Hold-10")
+   ("holdtenaaaaa" "Hold-10")
+   ("holdtenaaaaaa" "Hold-10")
+   ("holdtenaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaaaaa" "Hold-10")
+   ("buynoww" "Buy-Now")
+   ("cheater" "Cheat")
+   ("cheatera" "Cheat")
+   ("cheateraa" "Cheat")
+   ("cheateraaa" "Cheat")
+   ("cheateraaaa" "Cheat")
+   ("cheateraaaaa" "Cheat")
+   ("cheateraaaaaa" "Cheat")
+   ("cheateraaaaaaa" "Cheat")
+   ("cheateraaaaaaaa" "Cheat")
+   ("cheateraaaaaaaaa" "Cheat"))
+  ("white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"))
+(*** expected)
+'((("buynoww")
+   ("cheater"
+    "cheatera"
+    "cheateraa"
+    "cheateraaa"
+    "cheateraaaa"
+    "cheateraaaaa"
+    "cheateraaaaaa"
+    "cheateraaaaaaa"
+    "cheateraaaaaaaa"
+    "cheateraaaaaaaaa")))
+(*** but received)
+'(((plain fast with-newline plain-unicode)
+   ("Timed out waiting for reading to start.")))
+
+
+(testing /vagrant/canonical/10/ClientTests/6-in.json /vagrant/canonical/10/ClientTests/6-out.json)
+---------------------------------
+(*** score 0)
+(*** on)
+'(#hasheq((cities
+           .
+           (("c19" (145 796))
+            ("c18" (142 667))
+            ("c17" (88 44))
+            ("c16" (1 534))
+            ("c15" (78 117))
+            ("c14" (135 551))
+            ("c13" (57 368))
+            ("c12" (46 601))
+            ("c11" (28 68))
+            ("c10" (81 278))
+            ("c9" (121 619))
+            ("c8" (44 266))
+            ("c7" (66 179))
+            ("c6" (76 222))
+            ("c5" (100 162))
+            ("c4" (171 69))
+            ("c3" (195 708))
+            ("c2" (23 712))
+            ("c1" (30 655))
+            ("c0" (183 432))))
+          (connections
+           .
+           #hasheq((c0
+                    .
+                    #hasheq((c2 . #hasheq((red . 3)))
+                            (c5 . #hasheq((blue . 3)))))
+                   (c1 . #hasheq((c4 . #hasheq((green . 3)))))
+                   (c10
+                    .
+                    #hasheq((c12 . #hasheq((green . 3)))
+                            (c15 . #hasheq((blue . 3)))
+                            (c16 . #hasheq((green . 3)))
+                            (c17 . #hasheq((red . 3)))
+                            (c19 . #hasheq((green . 3)))
+                            (c5 . #hasheq((white . 3)))
+                            (c7 . #hasheq((green . 3)))))
+                   (c11
+                    .
+                    #hasheq((c13 . #hasheq((blue . 3)))
+                            (c2 . #hasheq((white . 3)))
+                            (c3 . #hasheq((blue . 3)))
+                            (c5 . #hasheq((white . 3)))))
+                   (c12
+                    .
+                    #hasheq((c3 . #hasheq((white . 3)))
+                            (c5 . #hasheq((red . 3)))))
+                   (c13
+                    .
+                    #hasheq((c14 . #hasheq((green . 3)))
+                            (c17 . #hasheq((white . 3)))
+                            (c19 . #hasheq((red . 3)))))
+                   (c14
+                    .
+                    #hasheq((c15 . #hasheq((white . 3)))
+                            (c18 . #hasheq((white . 3)))
+                            (c8 . #hasheq((white . 3)))))
+                   (c15
+                    .
+                    #hasheq((c5 . #hasheq((green . 3)))
+                            (c9 . #hasheq((white . 3)))))
+                   (c16
+                    .
+                    #hasheq((c19 . #hasheq((green . 3)))
+                            (c3 . #hasheq((red . 3)))))
+                   (c17 . #hasheq((c4 . #hasheq((blue . 3)))))
+                   (c18
+                    .
+                    #hasheq((c3 . #hasheq((red . 3)))
+                            (c4 . #hasheq((blue . 3) (white . 3)))))
+                   (c19
+                    .
+                    #hasheq((c2 . #hasheq((green . 3)))
+                            (c4 . #hasheq((green . 3)))))
+                   (c2 . #hasheq((c3 . #hasheq((white . 3)))))
+                   (c3
+                    .
+                    #hasheq((c4 . #hasheq((green . 3) (red . 3)))
+                            (c6 . #hasheq((blue . 3)))))
+                   (c4 . #hasheq())
+                   (c5 . #hasheq((c8 . #hasheq((red . 3)))))
+                   (c6 . #hasheq((c8 . #hasheq((white . 3)))))
+                   (c7 . #hasheq())
+                   (c8 . #hasheq())
+                   (c9 . #hasheq())))
+          (height . 800)
+          (width . 200))
+  (("holdten" "Hold-10")
+   ("holdtena" "Hold-10")
+   ("holdtenaa" "Hold-10")
+   ("holdtenaaa" "Hold-10")
+   ("holdtenaaaa" "Hold-10")
+   ("holdtenaaaaa" "Hold-10")
+   ("holdtenaaaaaa" "Hold-10")
+   ("holdtenaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaaaaaaaaaaaaaa" "Hold-10")
+   ("holdtenaaaaaaaaaaaaaaaaaaaaaaaaaa" "Hold-10")
+   ("buynoww" "Buy-Now")
+   ("cheater" "Cheat")
+   ("cheatera" "Cheat")
+   ("cheateraa" "Cheat")
+   ("cheateraaa" "Cheat")
+   ("cheateraaaa" "Cheat")
+   ("cheateraaaaa" "Cheat")
+   ("cheateraaaaaa" "Cheat")
+   ("cheateraaaaaaa" "Cheat")
+   ("cheateraaaaaaaa" "Cheat")
+   ("cheateraaaaaaaaa" "Cheat")
+   ("cheateraaaaaaaaaa" "Cheat")
+   ("cheateraaaaaaaaaaa" "Cheat"))
+  ("white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"
+   "white"))
+(*** expected)
+'((("holdten"
+    "holdtena"
+    "holdtenaa"
+    "holdtenaaa"
+    "holdtenaaaaaaaaaaaaaaaa"
+    "holdtenaaaaaaaaaaaaaaaaa")
+   ("cheater"
+    "cheatera"
+    "cheateraa"
+    "cheateraaa"
+    "cheateraaaa"
+    "cheateraaaaa"
+    "cheateraaaaaa"
+    "cheateraaaaaaa"
+    "cheateraaaaaaaa"
+    "cheateraaaaaaaaa"
+    "cheateraaaaaaaaaa"
+    "cheateraaaaaaaaaaa")))
+(*** but received)
+'(((plain fast with-newline plain-unicode)
+   ("Timed out waiting for reading to start.")))
+
+
+()
+((passed 0) (total 6) (partial-score 0))

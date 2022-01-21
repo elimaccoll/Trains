@@ -1,0 +1,25 @@
+{
+    "width": 800,
+    "height": 800,
+    "cities": [
+        ["Bismarck", [400, 100]],
+        ["Washington, D.C.", [600, 500]],
+        ["New York", [700, 400]],
+        ["Boston", [800, 300]],
+        ["Trenton", [800, 500]],
+        ["Seattle", [100, 50]],
+        ["Sacramento", [200, 500]],
+        ["Austin", [400, 700]]
+    ],
+    "connections": {
+        "Austin": {
+            "Boston": { "blue": 4 }
+        },
+        "Boston": {
+            "New York": { "red": 3 }
+        },
+        "New York": { 
+            "Trenton": { "green": 3 } 
+        }
+    }
+}

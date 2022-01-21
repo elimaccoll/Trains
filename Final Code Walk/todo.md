@@ -1,0 +1,27 @@
+- [X] Defensive copying in all constructors rather than when calling a constructor,
+  - Guarantees we never mutate passed in data
+- [X] Creating static functions or extracting global functions
+- [X] ~~Remove AbstractPlayerStrategy and make it's methods func_utils~~
+  - Can be used to abstract some functionality between BuyNow and Hold10
+- [ ] Update old design docs
+- [X] Fix up typing in all files
+- [X] Phase out unused functions in PlayerInterface (Update Referee to reflect this)
+- [X] Refactor AbstractPlayer to just a concrete Player
+- [X] Phase out DynamicPlayer. replace with static create function in Player implementation
+  - Rename AbstractPlayer to something like PlayerWithStrategy
+- [ ] Change primitive data types in map.py from dataclasses to regular classes
+- [X] Change city coordinates from ints to floats
+- [X] Create an independent strategy_test.py file (strategy tests are currently in player_tests.py)
+- [X] Clean up test suite in general (writing/updating/documenting tests wherever necessary)
+- [X] Refactor "opponent info" in PlayerGameState. Remove unused pieces, but more importantly, create a data definition, rather than use a arbitrary dictionary.
+- [X] Visitor pattern for handling PlayerMoves.
+  - ~~Maybe factory pattern for creating player moves.~~
+- [ ] In several places in Referee, we call `try_call_player` function to safely interact with players. It's kind of weird to remember to do this every time we interact with a player. So maybe create an internal `SafePlayer` (does not implement PlayerInterface) that does uses `try_call_player` automatically.
+- [ ] Separate Referee and RefereeGameState functionality more. For instance, scoring does not need to be an operation of the Referee. The GameState alone has sufficient information for computing the score. In general, anything that simply uses game state info, should belong in the game state.
+- [X] Add debugging option to xserver for convenience
+- [X] Fix performance issues
+- [X] ~~Handle case where clients sign up before the server starts. Return some error message possibly.~~
+  - Already automatically terminates
+- [ ] Refactor JSON conversion functions to use intermediate representation rather than strings.
+- [ ] Make Destinations simply a pair of Cities rather than just a FrozenSet
+- [ ] Pull out game constants to a more centralized location

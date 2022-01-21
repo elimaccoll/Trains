@@ -1,0 +1,23 @@
+#!/bin/bash
+
+for i in {3,5,6,8,9}
+do
+    cd ../$i
+    IN_FILES=$(find ./Tests/* -printf "%f\n" | grep -i "in.json")
+    OUT_FILES=$(find ./Tests/* -printf "%f\n" | grep -i "out.json")
+    EXEC_FILE=$(find ./* -printf "%f\n" | grep -i "x")
+    echo "Test Harness $i - $EXEC_FILE"
+    for in_file in $IN_FILES ; do
+        echo -n "Running $in_file: "
+        cat Tests/$in_file | python3 $EXEC_FILE
+        echo ""
+    done
+    echo ""
+    for out_file in $OUT_FILES
+    do
+        echo -n "Expected $out_file: "
+        cat Tests/$out_file
+        echo ""
+    done
+    echo "--------------------------"
+done

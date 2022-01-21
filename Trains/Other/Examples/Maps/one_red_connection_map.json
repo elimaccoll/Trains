@@ -1,0 +1,31 @@
+{
+    "width": 800,
+    "height": 800,
+    "cities": [
+        ["Bismarck", [400, 100]],
+        ["Washington, D.C.", [600, 500]],
+        ["New York", [700, 400]],
+        ["Boston", [800, 300]],
+        ["Trenton", [800, 500]],
+        ["Seattle", [100, 50]],
+        ["Sacramento", [200, 500]],
+        ["Austin", [400, 700]]
+    ],
+    "connections": {
+        "Austin": {
+            "Washington, D.C.": { "blue": 4, "red": 4, "green": 4, "white": 4 }
+        },
+        "Bismarck": {
+            "Austin": { "green": 4 },
+            "Boston": { "white": 5 },
+            "Sacramento": { "blue": 3 }
+        },
+        "Boston": {
+            "New York": { "blue": 3, "white": 3 },
+            "Trenton": { "white": 4 }
+        },
+        "New York": { "Trenton": { "blue": 3, "green": 3 } },
+        "Sacramento": { "Seattle": { "blue": 5, "white": 5, "green": 5 } },
+        "Trenton": { "Washington, D.C.": { "green": 3, "blue": 3 } }
+    }
+}

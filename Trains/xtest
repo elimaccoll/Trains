@@ -1,0 +1,9 @@
+#!/bin/bash
+cd ./Other/Unit_Tests
+FILES="./*"
+for unit_test in $FILES
+do
+    echo "Running $unit_test"
+    python3 $unit_test
+    echo ""
+done
